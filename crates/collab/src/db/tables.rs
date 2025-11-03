@@ -27,6 +27,7 @@ pub mod room;
 pub mod room_participant;
 pub mod server;
 pub mod signup;
+pub mod thread;
 pub mod user;
 pub mod worktree;
 pub mod worktree_diagnostic_summary;

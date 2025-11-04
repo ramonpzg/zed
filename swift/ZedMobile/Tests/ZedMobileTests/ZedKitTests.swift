@@ -1,7 +1,7 @@
 import XCTest
-@testable import ZedKit
+@testable import ZedMobile
 
-final class ZedKitTests: XCTestCase {
+final class ZedMobileTests: XCTestCase {
 
     // MARK: - Model Tests
 

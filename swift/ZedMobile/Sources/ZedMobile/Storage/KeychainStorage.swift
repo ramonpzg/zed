@@ -5,7 +5,7 @@ import Security
 public actor KeychainStorage {
     private let service: String
 
-    public init(service: String = "dev.zed.ZedKit") {
+    public init(service: String = "dev.zed.ZedMobile") {
         self.service = service
     }
 

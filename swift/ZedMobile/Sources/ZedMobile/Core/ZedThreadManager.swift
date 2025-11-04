@@ -193,7 +193,7 @@ public class ZedThreadManager: ObservableObject {
     public func decodeThreadData(_ threadData: ThreadData) throws -> Data {
         guard let data = Data(base64Encoded: threadData.data) else {
             throw ZedAPIError.decodingError(
-                NSError(domain: "ZedKit", code: -1, userInfo: [
+                NSError(domain: "ZedMobile", code: -1, userInfo: [
                     NSLocalizedDescriptionKey: "Failed to decode base64 data"
                 ])
             )

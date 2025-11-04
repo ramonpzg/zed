@@ -1,0 +1,19 @@
+# swift/
+
+# Keep ZedMobile isolated but tracked
+# This allows ZedMobile to evolve independently while staying in sync
+
+# ZedMobile Swift package (keep tracked)
+!ZedMobile/
+
+# But ignore build artifacts and IDE files
+ZedMobile/.build/
+ZedMobile/.swiftpm/
+ZedMobile/DerivedData/
+ZedMobile/*.xcodeproj/
+ZedMobile/*.xcworkspace/
+
+# Ignore local Swift package artifacts
+**/.DS_Store
+**/xcuserdata/
+**/UserInterfaceState.xcuserstate

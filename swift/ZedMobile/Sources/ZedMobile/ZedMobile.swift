@@ -1,8 +1,8 @@
 import Foundation
 
-/// Main entry point for ZedKit framework
+/// Main entry point for ZedMobile framework
 ///
-/// ZedKit provides iOS integration with Zed's collaboration server,
+/// ZedMobile provides iOS integration with Zed's collaboration server,
 /// enabling thread synchronization, real-time collaboration, and agent interactions.
 ///
 /// ## Topics
@@ -34,8 +34,8 @@ import Foundation
 /// - ``ThreadMetadata`` - Thread list item
 /// - ``ThreadData`` - Full thread data
 ///
-public enum ZedKit {
-    /// Current version of ZedKit
+public enum ZedMobile {
+    /// Current version of ZedMobile
     public static let version = "0.1.0"
 
     /// Create a thread manager with the given credentials

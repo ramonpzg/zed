@@ -4,26 +4,26 @@
 import PackageDescription
 
 let package = Package(
-    name: "ZedKit",
+    name: "ZedMobile",
     platforms: [
         .iOS(.v16),
         .macOS(.v13)
     ],
     products: [
         .library(
-            name: "ZedKit",
-            targets: ["ZedKit"]),
+            name: "ZedMobile",
+            targets: ["ZedMobile"]),
     ],
     targets: [
         .target(
-            name: "ZedKit",
+            name: "ZedMobile",
             dependencies: [],
-            path: "Sources/ZedKit"
+            path: "Sources/ZedMobile"
         ),
         .testTarget(
-            name: "ZedKitTests",
-            dependencies: ["ZedKit"],
-            path: "Tests/ZedKitTests"
+            name: "ZedMobileTests",
+            dependencies: ["ZedMobile"],
+            path: "Tests/ZedMobileTests"
         ),
     ]
 )
